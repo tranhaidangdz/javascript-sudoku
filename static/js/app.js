@@ -17,6 +17,7 @@ document.getElementById("btn-close-how-to-play").addEventListener("click", () =>
     document.getElementById("how-to-play-popup").style.display = "none";
 });
 
+
 // screens
 const start_screen = document.querySelector('#start-screen');
 const game_screen = document.querySelector('#game-screen');
@@ -393,6 +394,8 @@ document.querySelector('#btn-delete').addEventListener('click', () => {
 
     removeErr();
 })
+
+
 // -------------
 
 const init = () => {
