@@ -463,3 +463,42 @@ nav {
         height: 100vh;
     }
 }
+
+/* how to play */
+.how-to-play-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.how-to-play-content {
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    max-width: 1500px;
+    width: 90%;
+    text-align: left;
+    color: #333;
+}
+
+.how-to-play-content h2 {
+    margin-top: 0;
+    font-size: 4rem;
+}
+
+.how-to-play-content p,
+.how-to-play-content ol {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.how-to-play-content ol {
+    padding-left: 60px;
+}
